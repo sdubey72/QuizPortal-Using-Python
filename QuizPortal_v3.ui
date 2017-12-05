@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>935</width>
-    <height>717</height>
+    <width>966</width>
+    <height>780</height>
    </rect>
   </property>
   <property name="baseSize">
@@ -21,10 +21,12 @@
   </property>
   <property name="font">
    <font>
-    <family>Cambria</family>
-    <pointsize>10</pointsize>
+    <family>Lucida Sans</family>
+    <pointsize>16</pointsize>
     <weight>75</weight>
+    <italic>true</italic>
     <bold>true</bold>
+    <underline>false</underline>
    </font>
   </property>
   <property name="mouseTracking">
@@ -54,18 +56,48 @@ border-color: rgb(0, 0, 0)</string>
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="MainFrame">
+   <property name="font">
+    <font>
+     <family>Lucida Sans</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QTabWidget" name="Admin_Tab">
+      <property name="font">
+       <font>
+        <family>Lucida Sans</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="autoFillBackground">
        <bool>false</bool>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="AdminTab">
+       <property name="font">
+        <font>
+         <family>Lucida Sans</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <attribute name="title">
         <string>Admin</string>
+       </attribute>
+       <attribute name="whatsThis">
+        <string>Upload csv file</string>
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
@@ -88,6 +120,15 @@ border-color: rgb(0, 0, 0)</string>
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Lucida Sans</family>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <italic>true</italic>
+            <bold>true</bold>
+           </font>
+          </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>
@@ -109,16 +150,25 @@ border-color: rgb(0, 0, 0)</string>
              <height>151</height>
             </rect>
            </property>
+           <property name="font">
+            <font>
+             <family>Lucida Sans</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="html">
             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:12pt; font-weight:600; text-decoration: underline;&quot;&gt;Note&lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:12pt; font-weight:600;&quot;&gt; :&lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:10pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:10pt;&quot;&gt;Only CSV file in the following format is accepted. &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:10pt;&quot;&gt;The header should have following cells&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-size:10pt;&quot;&gt;Question_text,Option_1,Option_2,Option_3,Option_4,Answer_text&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Sans'; font-size:14pt; font-weight:600; font-style:italic;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-style:normal; text-decoration: underline;&quot;&gt;Note&lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-style:normal;&quot;&gt; : &lt;/span&gt;&lt;span style=&quot; font-family:'Cambria'; font-weight:400; font-style:normal;&quot;&gt;Only CSV file in the following format is accepted. &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-weight:400; font-style:normal;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-weight:400; font-style:normal;&quot;&gt;The header should have following cells&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Cambria'; font-weight:400; font-style:normal;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Cambria'; font-weight:400; font-style:normal;&quot;&gt;Question_text,Option_1,Option_2,Option_3,Option_4,Answer_text&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
           </widget>
           <widget class="QPushButton" name="btn_Browse">
@@ -129,6 +179,15 @@ p, li { white-space: pre-wrap; }
              <width>171</width>
              <height>41</height>
             </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Lucida Sans</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
            </property>
            <property name="accessibleName">
             <string>btn_Browse</string>
@@ -143,11 +202,20 @@ p, li { white-space: pre-wrap; }
           <widget class="QLabel" name="L_Admin_info">
            <property name="geometry">
             <rect>
-             <x>160</x>
+             <x>100</x>
              <y>40</y>
-             <width>421</width>
-             <height>51</height>
+             <width>731</width>
+             <height>71</height>
             </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Lucida Sans</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
            </property>
            <property name="text">
             <string>Browse or enter the file path to upload your CSV file</string>
@@ -161,6 +229,15 @@ p, li { white-space: pre-wrap; }
              <width>451</width>
              <height>31</height>
             </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Lucida Sans</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
            </property>
            <property name="accessibleName">
             <string>file_input</string>
@@ -177,6 +254,15 @@ p, li { white-space: pre-wrap; }
              <width>171</width>
              <height>41</height>
             </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Lucida Sans</family>
+             <pointsize>14</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
            </property>
            <property name="contextMenuPolicy">
             <enum>Qt::DefaultContextMenu</enum>
@@ -198,17 +284,22 @@ p, li { white-space: pre-wrap; }
        <zorder>L_Admin_info2</zorder>
        <zorder>frame_Admin</zorder>
       </widget>
-      <widget class="QWidget" name="Student_registration_tab">
+      <widget class="QWidget" name="Quiz_Login_tab">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
        <attribute name="title">
-        <string>Student Registration</string>
+        <string>Quiz_Login</string>
        </attribute>
        <widget class="QFrame" name="frame_Student_Reg_Input">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>10</x>
           <y>10</y>
-          <width>551</width>
-          <height>541</height>
+          <width>671</width>
+          <height>621</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -238,6 +329,15 @@ p, li { white-space: pre-wrap; }
            <height>51</height>
           </rect>
          </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="frameShape">
           <enum>QFrame::NoFrame</enum>
          </property>
@@ -251,33 +351,51 @@ p, li { white-space: pre-wrap; }
           <number>0</number>
          </property>
         </widget>
-        <widget class="QLabel" name="L_Student_name">
+        <widget class="QLabel" name="L_Quiz_id">
          <property name="geometry">
           <rect>
-           <x>230</x>
+           <x>160</x>
            <y>80</y>
-           <width>141</width>
+           <width>441</width>
            <height>31</height>
           </rect>
          </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
-          <string>Student Name</string>
+          <string>Quiz ID/Number</string>
          </property>
          <property name="indent">
           <number>0</number>
          </property>
         </widget>
-        <widget class="QLineEdit" name="input_Student_Name">
+        <widget class="QLineEdit" name="input_quiz_id">
          <property name="geometry">
           <rect>
            <x>150</x>
            <y>120</y>
-           <width>331</width>
+           <width>461</width>
            <height>41</height>
           </rect>
          </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="placeholderText">
-          <string>Enter Name</string>
+          <string/>
          </property>
          <property name="clearButtonEnabled">
           <bool>true</bool>
@@ -286,11 +404,20 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="L_Course_id">
          <property name="geometry">
           <rect>
-           <x>210</x>
+           <x>160</x>
            <y>190</y>
-           <width>199</width>
-           <height>20</height>
+           <width>441</width>
+           <height>31</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
           <string>Course ID (like DATA650)</string>
@@ -304,12 +431,21 @@ p, li { white-space: pre-wrap; }
           <rect>
            <x>150</x>
            <y>240</y>
-           <width>341</width>
+           <width>461</width>
            <height>41</height>
           </rect>
          </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="placeholderText">
-          <string>Course </string>
+          <string/>
          </property>
          <property name="clearButtonEnabled">
           <bool>true</bool>
@@ -318,11 +454,20 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="L_student_id">
          <property name="geometry">
           <rect>
-           <x>240</x>
-           <y>320</y>
-           <width>163</width>
-           <height>20</height>
+           <x>160</x>
+           <y>310</y>
+           <width>441</width>
+           <height>41</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="frameShape">
           <enum>QFrame::NoFrame</enum>
@@ -342,54 +487,59 @@ p, li { white-space: pre-wrap; }
           <rect>
            <x>150</x>
            <y>370</y>
-           <width>341</width>
+           <width>451</width>
            <height>51</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
           <string/>
          </property>
          <property name="placeholderText">
-          <string>Enter id</string>
+          <string/>
          </property>
          <property name="clearButtonEnabled">
           <bool>true</bool>
          </property>
         </widget>
-        <widget class="QPushButton" name="btn_Student_detail">
+        <widget class="QPushButton" name="btn_Start_Quiz">
          <property name="geometry">
           <rect>
-           <x>90</x>
-           <y>480</y>
-           <width>151</width>
+           <x>220</x>
+           <y>490</y>
+           <width>191</width>
            <height>41</height>
           </rect>
          </property>
-         <property name="text">
-          <string>Submit Details</string>
-         </property>
-        </widget>
-        <widget class="QPushButton" name="btn_clear_student_details">
-         <property name="geometry">
-          <rect>
-           <x>360</x>
-           <y>480</y>
-           <width>161</width>
-           <height>41</height>
-          </rect>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
-          <string>Clear Details</string>
+          <string>Start Quiz</string>
          </property>
         </widget>
        </widget>
        <widget class="QFrame" name="frame_Studetn_Reg_Status">
         <property name="geometry">
          <rect>
-          <x>580</x>
+          <x>670</x>
           <y>10</y>
           <width>271</width>
-          <height>561</height>
+          <height>621</height>
          </rect>
         </property>
         <property name="frameShape">
@@ -404,8 +554,17 @@ p, li { white-space: pre-wrap; }
            <x>30</x>
            <y>90</y>
            <width>221</width>
-           <height>411</height>
+           <height>511</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
          </property>
         </widget>
         <widget class="QLabel" name="L_Status">
@@ -417,116 +576,17 @@ p, li { white-space: pre-wrap; }
            <height>31</height>
           </rect>
          </property>
+         <property name="font">
+          <font>
+           <family>Lucida Sans</family>
+           <pointsize>14</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Status</string>
-         </property>
-        </widget>
-       </widget>
-      </widget>
-      <widget class="QWidget" name="Quiz_Tab">
-       <attribute name="title">
-        <string>Quiz</string>
-       </attribute>
-       <widget class="QFrame" name="frame_Quiz">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>30</y>
-          <width>811</width>
-          <height>531</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="frameShape">
-         <enum>QFrame::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Raised</enum>
-        </property>
-        <widget class="QTextEdit" name="input_question">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>50</y>
-           <width>781</width>
-           <height>201</height>
-          </rect>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::Box</enum>
-         </property>
-         <property name="textInteractionFlags">
-          <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse|Qt::TextBrowserInteraction|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
-         </property>
-         <property name="placeholderText">
-          <string>Question</string>
-         </property>
-        </widget>
-        <widget class="QRadioButton" name="rBtn_option1">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>290</y>
-           <width>91</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>RadioButton</string>
-         </property>
-        </widget>
-        <widget class="QRadioButton" name="rBtn_option2">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>340</y>
-           <width>91</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>RadioButton</string>
-         </property>
-        </widget>
-        <widget class="QRadioButton" name="rBtn_option3">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>390</y>
-           <width>91</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>RadioButton</string>
-         </property>
-        </widget>
-        <widget class="QRadioButton" name="rBtn_option4">
-         <property name="geometry">
-          <rect>
-           <x>20</x>
-           <y>440</y>
-           <width>91</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>RadioButton</string>
-         </property>
-        </widget>
-        <widget class="QPushButton" name="btn_next_ques">
-         <property name="geometry">
-          <rect>
-           <x>582</x>
-           <y>480</y>
-           <width>151</width>
-           <height>28</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>Next &gt;&gt;</string>
          </property>
         </widget>
        </widget>
@@ -540,31 +600,53 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>935</width>
-     <height>26</height>
+     <width>966</width>
+     <height>38</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Lucida Sans</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
    <widget class="QMenu" name="menuMain">
+    <property name="font">
+     <font>
+      <family>Lucida Sans</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="title">
      <string>Main</string>
     </property>
+    <addaction name="separator"/>
+    <addaction name="actionHelp"/>
+    <addaction name="actionAbout_2"/>
+    <addaction name="separator"/>
     <addaction name="actionExit"/>
    </widget>
-   <widget class="QMenu" name="menuHelp">
-    <property name="title">
-     <string>Help</string>
-    </property>
-    <addaction name="separator"/>
-    <addaction name="actionAbout"/>
-    <addaction name="actionPython_Version_Used"/>
-   </widget>
    <addaction name="menuMain"/>
-   <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionExit">
    <property name="text">
     <string>Exit</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Lucida Sans</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
    </property>
   </action>
   <action name="actionAbout">
@@ -577,77 +659,40 @@ p, li { white-space: pre-wrap; }
     <string>Python Version Used</string>
    </property>
   </action>
+  <action name="actionAbout_2">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
  </widget>
  <tabstops>
-  <tabstop>btn_Student_detail</tabstop>
+  <tabstop>Admin_Tab</tabstop>
   <tabstop>input_file_path</tabstop>
-  <tabstop>inuput_student_id</tabstop>
-  <tabstop>btn_clear_student_details</tabstop>
-  <tabstop>input_course_id</tabstop>
-  <tabstop>input_Student_Name</tabstop>
-  <tabstop>textBrowser</tabstop>
-  <tabstop>input_sql_status</tabstop>
   <tabstop>btn_UploadFile</tabstop>
+  <tabstop>btn_Browse</tabstop>
+  <tabstop>textBrowser</tabstop>
+  <tabstop>input_quiz_id</tabstop>
+  <tabstop>input_course_id</tabstop>
+  <tabstop>inuput_student_id</tabstop>
+  <tabstop>btn_Start_Quiz</tabstop>
+  <tabstop>input_sql_status</tabstop>
  </tabstops>
  <resources/>
  <connections>
   <connection>
-   <sender>btn_clear_student_details</sender>
+   <sender>btn_Start_Quiz</sender>
    <signal>clicked()</signal>
-   <receiver>input_Student_Name</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>479</x>
-     <y>584</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>491</x>
-     <y>205</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_clear_student_details</sender>
-   <signal>clicked()</signal>
-   <receiver>input_course_id</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>431</x>
-     <y>570</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>397</x>
-     <y>329</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_clear_student_details</sender>
-   <signal>clicked()</signal>
-   <receiver>inuput_student_id</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>443</x>
-     <y>564</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>444</x>
-     <y>454</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_Student_detail</sender>
-   <signal>clicked()</signal>
-   <receiver>input_Student_Name</receiver>
+   <receiver>input_quiz_id</receiver>
    <slot>selectAll()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>222</x>
-     <y>586</y>
+     <x>332</x>
+     <y>596</y>
     </hint>
     <hint type="destinationlabel">
      <x>419</x>
@@ -656,46 +701,46 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>btn_Student_detail</sender>
+   <sender>btn_Start_Quiz</sender>
    <signal>clicked()</signal>
    <receiver>input_course_id</receiver>
    <slot>selectAll()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>146</x>
-     <y>589</y>
+     <x>256</x>
+     <y>599</y>
     </hint>
     <hint type="destinationlabel">
-     <x>195</x>
-     <y>331</y>
+     <x>205</x>
+     <y>359</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>btn_Student_detail</sender>
+   <sender>btn_Start_Quiz</sender>
    <signal>clicked()</signal>
    <receiver>inuput_student_id</receiver>
    <slot>selectAll()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>251</x>
-     <y>581</y>
+     <x>261</x>
+     <y>609</y>
     </hint>
     <hint type="destinationlabel">
-     <x>296</x>
-     <y>462</y>
+     <x>306</x>
+     <y>490</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>btn_Student_detail</sender>
+   <sender>btn_Start_Quiz</sender>
    <signal>clicked()</signal>
    <receiver>input_sql_status</receiver>
    <slot>show()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>108</x>
-     <y>580</y>
+     <x>248</x>
+     <y>618</y>
     </hint>
     <hint type="destinationlabel">
      <x>739</x>
